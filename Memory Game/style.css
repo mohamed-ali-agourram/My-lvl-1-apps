@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhaijaan+2:wght@500&family=Bebas+Neue&display=swap');
+@keyframes flip{
+    from{transform: rotateY(0); }
+    to{transform: rotateY(360deg);}
+}
+@keyframes move {
+    from {left: -300px; opacity: 0}
+    to {left: 0; opacity: 1}
+  }
+body{
+    background-image:  url("bg.jpg");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+h1{
+    margin : 0 auto ; 
+    color: white;
+    font-size: 3rem;
+}
+.container1{
+    position: relative;
+    margin: -0.1% auto;
+    padding: 1%;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    background: rgba(20, 20, 20, 0.733);
+}
+.result{
+    border : none ; 
+    border-radius : 8px;
+    background: rgba(0, 0, 0, 0.692);
+    margin: 3% auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.container2{
+    display: flex;
+    margin: 10% auto;
+    position:relative;
+}
+
+img{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    width:  20%;
+    height: 20vh;
+    object-fit: cover;
+    animation-name: flip;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.A{
+    display: none;
+    position: absolute;
+ left: 10%;
+}
+.flipA{
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 10%;
+}
+.B{
+    display: none;
+    position: absolute;
+    left: 31%;
+}
+.flipB{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 31%;
+}
+.C{
+    display: none;
+    position: absolute;
+    left: 52%;
+}
+.flipC{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 52%;
+}
+.D{
+    display: none;
+    position: absolute;
+    left: 73%;
+}
+.flipD{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 73%;
+}
+.E{
+    display: none;
+    position: absolute;
+    top: 200%;
+    left: 10%;
+}
+.flipE{
+    position: absolute;
+    display: block;
+    top: 200%;
+    left: 10%;
+}
+.F{
+    display: none;
+    position: absolute;
+    left: 31%;
+    top: 200%;
+}
+.flipF{
+    display: block;
+    position: absolute;
+    top: 200%;
+    left: 31%;
+}
+.G{
+    display: none;
+    position: absolute;
+    left: 52%;
+    top: 200%;
+}
+.flipG{
+    display: block;
+    position: absolute;
+    top: 200%;
+    left: 52%;
+}
+.H{
+    display: none;
+    position: absolute;
+    left: 73%;
+    top: 200%;
+}
+.flipH{
+        display: block;
+        position: absolute;
+        left: 73%;
+        top: 200%;
+    }
+
+
+
+
+
+

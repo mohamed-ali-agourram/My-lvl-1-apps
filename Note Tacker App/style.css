@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Bebas+Neue&display=swap');
+body{
+    background: rgb(240, 248, 245) ;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top : 0;
+    text-shadow: 1px 2px 5px rgb(94, 85, 85) ;
+}
+.divP{
+    margin-top : -3%;
+    font-size: 1.5rem;
+    color: rgb(0, 131, 0);
+    text-shadow: 1px 2px 5px rgba(23, 117, 23, 0.726) ;
+}
+.html{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    padding: 1.5%;
+   margin-left: auto;
+    background: rgba(255, 255, 255, 0.938);
+    font-size: 0.9rem;
+    border : none;
+    border-radius: 15px;
+    width: 50%;
+    height: 50px ;
+    box-shadow: 1px 2px 5px black ;
+}
+
+.btn{
+    box-shadow: 1px 2px 5px black ;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:  auto;
+    margin-left: 1%;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background: rgb(0, 173, 0);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.5rem;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.myDiv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6%;
+    width: 90% ;
+    margin: 0 auto;
+    margin-top: 3%; 
+}
+.theP{  
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   overflow: hidden;
+    border: none;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.356);
+    width: fit-content;
+    max-width: 35%;
+    padding: 5px;
+    box-shadow: 1px 2px 5px black ;
+    margin: 5px ;
+    height: fit-content;
+}
+#btn2{
+    float: right;
+    margin-top: 0.5%;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    background:rgba(255, 0, 0, 0) ;
+    cursor: pointer;
+    }
+.btn3{
+        float: right;
+         border: none;
+         border-radius: 6px;
+         color: white;
+         background: rgb(255, 18, 18);
+         font-family: 'Baloo Bhaijaan 2', cursive;
+         font-size: 0.8rem;
+         width: fit-content;
+         cursor: pointer;
+     
+     }
+@keyframes popUp{
+    from{color : rgba(53, 185, 27, 0) ; height: 0; top: 0}
+    to{ color : white ; height: fit-content; top : 15%;}
+}
+.modal{
+    padding: 2%;
+    display: none;
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
+    border : none;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.89);
+    animation-name: popUp;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+.newP{
+    padding: 2%;
+    text-align: center;
+}
+.X{
+    margin-right: 1%;
+    font-size: 2rem;
+    float: right;
+    cursor: pointer;
+}

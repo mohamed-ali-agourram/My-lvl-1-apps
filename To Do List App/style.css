@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald&family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Bebas+Neue&display=swap');
+body{
+    height: 160vh;
+    background-image: url("ToDoBg.jpg") ;
+    backdrop-filter: blur(5px);
+   background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    font-family: 'PT Sans', sans-serif;
+}
+.border{
+    overflow-wrap: break-word;
+    padding: 5%;
+    text-overflow: ellipsis;
+    background: rgba(255, 255, 255, 0.685);
+    padding-top: 7px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    word-break: break-all;
+}
+h1{
+    color: rgb(22, 14, 5);
+    margin-top: -2%;
+    margin-bottom: 0;
+    text-align : center;
+    font-size: 500%;
+    font-weight: 100;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+p{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size:2rem;
+}
+#input{
+    background: rgba(255, 255, 255, 0.678);
+    box-shadow: 0 0 5px black;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius : 20px ;
+    padding: 1.5%;
+    width: 80%;  
+    height: 9px;
+    font-size: 100%;
+}
+.list{
+    padding-left : 0;
+    list-style-type:  none ;
+    text-align: center;
+    list-style-position: inside;
+    text-align: justify;
+    font-size: 1.7rem;
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;   
+    text-transform: capitalize;
+    
+}
+#checkbox{
+    width: 30px;
+    height: 30px;
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+button{
+    float: right;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background:red ;
+    cursor: pointer;
+    }
+#Daydate{   
+    background: rgba(128, 0, 128, 0.13);
+    border : solid transparent ;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.658);
+    font-size:1.2rem;
+    margin-top: -2%;
+    box-shadow: 0 0 5px black;
+}
+
